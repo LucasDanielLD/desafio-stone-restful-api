@@ -251,8 +251,8 @@ Para consulta via documentação Swagger é necessário acessar a seguinte URL:
 **Exemplo do corpo**
 ```json
 {
-	"name": "Stone",
-	"email": "stone@stone.com"
+  "name": "Stone",
+  "email": "stone@stone.com"
 }
 ```
 
@@ -269,8 +269,8 @@ Para consulta via documentação Swagger é necessário acessar a seguinte URL:
 **Exemplo do corpo**
 ```json
 {
-	"name": "Stone",
-	"email": "stone@stone.com"
+  "name": "Stone",
+  "email": "stone@stone.com"
 }
 ```
 
@@ -374,9 +374,9 @@ Para consulta via documentação Swagger é necessário acessar a seguinte URL:
 **Exemplo do corpo**
 ```json
 {
-	"name":	"Mercado Campeão",
-	"longitude": -43.558697,
-	"latitude": -22.88691
+  "name": "Mercado Campeão",
+  "longitude": -43.558697,
+  "latitude": -22.88691
 }
 ```
 
@@ -393,9 +393,9 @@ Para consulta via documentação Swagger é necessário acessar a seguinte URL:
 **Exemplo do corpo**
 ```json
 {
-	"name": "Mercado Mundial",
-	"longitude": -43.558697,
-	"latitude": -22.88691
+  "name": "Mercado Mundial",
+  "longitude": -43.558697,
+  "latitude": -22.88691
 }
 ```
 
@@ -425,41 +425,41 @@ Para consulta via documentação Swagger é necessário acessar a seguinte URL:
 {
   "name": "Belford Roxo",
   "coordinates":{
-		"type": "FeatureCollection",
-		"features": [
-			{      
-				"type": "Feature",
-				"properties": {},
-				"geometry": {
-					"type": "Polygon",
-					"coordinates": [
-						[
-							[
-								-43.464317321777344,
-								-22.780929700611292
-							],
-							[
-								-43.35651397705078,
-								-22.780929700611292
-							],
-							[
-								-43.35651397705078,
-								-22.756553877730898
-							],
-							[
-								-43.464317321777344,
-								-22.756553877730898
-							],
-							[
-								-43.464317321777344,
-								-22.780929700611292
-							]
-						]
-					]
-				}    
-			}
-		]
-	}
+    "type": "FeatureCollection",
+    "features": [
+      {      
+	"type": "Feature",
+	"properties": {},
+	"geometry": {
+	  "type": "Polygon",
+	  "coordinates": [
+	    [
+	      [
+		-43.464317321777344,
+		-22.780929700611292
+	      ],
+	      [
+		-43.35651397705078,
+		-22.780929700611292
+	      ],
+	      [
+		-43.35651397705078,
+		-22.756553877730898
+	      ],
+	      [
+		-43.464317321777344,
+		-22.756553877730898
+	      ],
+	      [
+		-43.464317321777344,
+		-22.780929700611292
+	      ]
+	    ]
+          ]
+	}    
+      }
+    ]
+  }
 }
 ```
 **Exemplo de resposta**
@@ -475,43 +475,43 @@ Para consulta via documentação Swagger é necessário acessar a seguinte URL:
 **Exemplo do corpo**
 ```json
 {
-  "name": "Teste",
+  "name": "Belford Roxo Editado",
   "coordinates":{
-		"type": "FeatureCollection",
-		"features": [
-			{      
-				"type": "Feature",
-				"properties": {},
-				"geometry": {
-					"type": "Polygon",
-					"coordinates": [
-						[
-							[
-								-43.76197814941406,
-								-22.78694384438262
-							],
-							[
-								-43.64181518554687,
-								-22.78694384438262
-							],
-							[
-								-43.64181518554687,
-								-22.702088278948246
-							],
-							[
-								-43.76197814941406,
-								-22.702088278948246
-							],
-							[
-								-43.76197814941406,
-								-22.78694384438262
-							]
-						]
-					]
-				}    
-			}
-		]
-	}
+    "type": "FeatureCollection",
+    "features": [
+      {      
+	"type": "Feature",
+	"properties": {},
+	"geometry": {
+	  "type": "Polygon",
+	  "coordinates": [
+	    [
+	      [
+		-43.464317321777344,
+		-22.780929700611292
+	      ],
+	      [
+		-43.35651397705078,
+		-22.780929700611292
+	      ],
+	      [
+		-43.35651397705078,
+		-22.756553877730898
+	      ],
+	      [
+		-43.464317321777344,
+		-22.756553877730898
+	      ],
+	      [
+		-43.464317321777344,
+		-22.780929700611292
+	      ]
+	    ]
+          ]
+	}    
+      }
+    ]
+  }
 }
 ```
 
@@ -538,7 +538,7 @@ Para consulta via documentação Swagger é necessário acessar a seguinte URL:
 **Exemplo do corpo**
 ```json
 {
-	"vendedor": "df4a4cc3-7014-4a12-b71d-36e03ba90833"
+  "vendedor": "df4a4cc3-7014-4a12-b71d-36e03ba90833"
 }
 ```
 
