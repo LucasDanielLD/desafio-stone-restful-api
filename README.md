@@ -46,7 +46,7 @@ Estrutura do projeto:
 ## Execução
 
 1. Clone do repositório.
-2. pip install requirements.txt
+2. pip install -r requirements.txt
 3. Rodar os seguintes comandos para criar a estrutura do banco de dados:
     1. python manage.py db init
     2. python manage.py db migrate
